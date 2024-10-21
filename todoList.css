@@ -1,0 +1,160 @@
+body {
+background-color:  whitesmoke ;
+font-size: 30px;
+font-family: Arial;
+margin: 50px;
+}
+
+.top-box {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: auto;
+gap: 20px;
+margin-bottom: 50px;
+margin-top: 50px;
+
+}
+
+.text-store {
+height: 10rem;
+resize: none;
+font-size: 30px;
+font-family: Arial;
+border-radius: 10px;
+padding: 10px 15px;
+border: solid 0.5px rgb(110, 110, 110);
+background-color: #fff1ff;
+
+}
+
+.text-store:focus{
+
+outline: none; 
+border-color: rgb(255, 255, 255); /* Replace the default blue color with red */
+box-shadow: 0 0 15px  rgba(138, 138, 138, 0.4); 
+border: solid 0.5px rgb(110, 110, 110);
+}
+
+
+.ok-button {
+font-size: 1.5rem;
+font-weight: bold;
+font-family: Arial;
+width: fit-content;
+height: fit-content;
+padding: 1rem;
+border: none;
+border-radius: 70px;
+background-color: #0073d8;
+cursor: pointer;
+color: white;
+
+align-self: center;
+justify-self: center;
+}
+
+.ok-button:hover {
+box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.3);
+}
+
+.ok-button:active {
+background-color: #0074c2;
+
+}
+
+
+.the-end {
+display: grid;
+grid-template-columns: 78% auto auto ;
+grid-template-rows: auto;
+align-items: center;
+gap: 15px;
+}
+
+#text{
+border-radius: 10px;
+padding: 30px 10px;
+background-color: rgb(255, 235, 225);
+border: solid 1px black;
+}
+
+#delete-button{
+font-size: 30px;
+font-family: Arial;
+border: none;
+padding: 10px 20px;
+border-radius: 10px;
+background-color: rgb(255, 185, 185);
+cursor: pointer;
+}
+
+#delete-button:hover{
+box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.3);
+}
+
+#delete-button:active{
+background-color: rgb(255, 170, 170);
+}
+
+#done-button{
+font-size: 30px;
+font-family: Arial;
+border: none;
+padding: 10px 20px;
+border-radius: 10px;
+background-color: white;
+cursor: pointer;
+}
+
+#done-button:hover{
+box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.3);
+}
+
+#done-button:active{
+background-color: rgb(82, 255, 82);
+}
+
+.done {
+background-color: rgb(181, 255, 182) !important; 
+border: solid black 1px;
+animation: fadeIn 2s forwards;
+}
+
+
+.all-delete-button {
+font-size: 30px;
+font-weight: 600;
+font-family: Arial;
+border: none;
+padding: 10px 20px;
+border-radius: 10px;
+background-color: rgb(255, 185, 185);
+cursor: pointer;
+display: none;
+
+
+}
+
+.all-delete-button:hover{
+box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.3);
+}
+
+.all-delete-button:active{
+background-color: rgb(255, 146, 146);
+}
+
+
+.all-delete-buttonyes{
+display: inline-block;
+animation: fadeIn 3s alternate;
+
+}
+
+@keyframes fadeIn {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
